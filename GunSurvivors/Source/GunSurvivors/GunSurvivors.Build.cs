@@ -2,13 +2,13 @@
 
 using UnrealBuildTool;
 
-public class DesertRacer : ModuleRules
+public class GunSurvivors : ModuleRules
 {
-	public DesertRacer(ReadOnlyTargetRules Target) : base(Target)
+	public GunSurvivors(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "Paper2D" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

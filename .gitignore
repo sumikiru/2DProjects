@@ -1,5 +1,7 @@
 .git
+*.idea
 *vs
+*.sln
 *.vsconfig
 */Binaries
 */DerivedDataCache
@@ -7,3 +9,4 @@
 */Saved
 # Content二进制文件过大
 */Content
+*/Build
